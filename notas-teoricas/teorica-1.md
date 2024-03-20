@@ -20,11 +20,11 @@ $\rightarrow$ Si b esta fijo todas las operaciones son O(1).
 * Dada una instancia *l*, definimos |l| como la cantidad de bits necesarios para almacenar los datos de entrada l.
   1. si b esta fijo y la entrada ocupa n celdas de memoria, entonces |l| = b<sub>n</sub> = O(n)
 * Complejidad de un algoritmo A:
-* f:A(n) = max l |l|=n **Chequear**
+* f:A(n) = max<sub>l:|l|=n</sub> T<sub>A</sub>(l)
 
 #### Repaso: Notación O
 * dadas dos funciones f, g: $\N \rightarrow \R$, decimos que:
- 1. f(n) = O(n) **Chequear**
+ 1. f(n) = O(n) si existen c $\in \Real_{+}$ y n<sub>0</sub> $\in \nat$
  2. Si un algoritmo es O(n), se dice lineal.
  3. Si un algoritmo es O(n^2), se dice cuadratico.
  4. Si un algoritmo es O(n^3), se dice cubico.
