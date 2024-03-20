@@ -66,7 +66,10 @@ Habitualmente, utiliza un vector a = (a1, a2, . . . , an) para representar una s
 ▶ En cada paso se extienden las soluciones parciales
 a = (a1, a2, . . . , ak ), k < n, agregando un elemento mas,
 a<sub>k+1</sub> $\in$ S<sub>k+1</sub> ⊆ A<sub>k+1</sub>, al final del vector a. Las nuevas soluciones parciales son sucesores de la anterior.
+
 ▶ Si S<sub>k+1</sub> es vacio, se retrocede a la solución parcial (a1, a2, . . . , ak−1).
+
 ▶ Se puede pensar este espacio como un árbol dirigido, donde
 cada vértice representa una solución parcial y un vértice x es hijo de y si la solución parcial x se puede extender desde la solución parcial y.
+
 ▶ Permite descartar configuraciones antes de explorarlas (podar el árbol).
