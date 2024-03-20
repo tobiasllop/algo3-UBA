@@ -42,7 +42,7 @@ $\rightarrow$ Si b esta fijo todas las operaciones son O(1).
 * Un problema de optimización consiste en encontrar la mejor solución dentro de un conjunto.
 * La función f: $S \rightarrow \mathbb{R}$ se denomina función objtivo del problema.
 * El conjunto $S$ es la región factible y los elementos x $\in S$ se llaman soluciones factibles.
-* El valor z^* $\in \mathbb{R}$ es el valor óptimo del problema y cualquier solución factible x^* $\in S$ tal que f(x^*) = z^* se llama un óptimo del problema.
+* El valor z^* $\in \mathbb{R}$ es el valor óptimo del problema y cualquier solución factible x^* $\in S$ tal que f(x^ *) = z^ * se llama un óptimo del problema.
 
 #### Problemas de optimización combinatoria
 * Un problema de optimización combinatoria es un problema de optimización cuya región factible es un conjunto definido por consideraciones combinatorias (!).
