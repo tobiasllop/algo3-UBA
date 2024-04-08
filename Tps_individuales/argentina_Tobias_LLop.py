@@ -1,3 +1,10 @@
+""""
+Entregable 1 para la materia AyEd III - LCD UBA
+Tobias Llop
+Link al enunciado: https://vjudge.net/problem/UVA-11804
+""""
+
+
 def hallar_equipos(jugadores):
     mejores_atacantes = []
     mejores_defensores = []
