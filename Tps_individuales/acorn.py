@@ -1,3 +1,8 @@
+"""
+Entregable 3 para la materia AyEd III - LCD UBA
+Tobias Llop
+Link al enunciado: https://vjudge.net/problem/UVA-1231
+"""
 def max_acorns(t, h, costo, bellotas):
     memo = [[0] * t for _ in range(h)]
     memo[0] = bellotas[0]
