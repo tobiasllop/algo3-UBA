@@ -9,8 +9,7 @@ E = {(1,2), (1,9), (2,3), (2,6), (2,7), (3,4), (4,5), (4,6), (5,6), (6,7), (7,8)
 En gral:
 
 $$
-n = |V| = \text{ cantidad de nodos} \\
-
+n = |V| = \text{ cantidad de nodos}
 m = |E| = \text{ cantidad de aristas}
 $$
 
