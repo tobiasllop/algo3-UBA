@@ -7,10 +7,12 @@ V: {1,2,3,4,5,6,7,8,9} // Nodos, Vertices
 E = {(1,2), (1,9), (2,3), (2,6), (2,7), (3,4), (4,5), (4,6), (5,6), (6,7), (7,8), (8,9)} // Aristas, conexiones
 
 En gral:
+
 $$
 n = |V| = \text{ cantidad de nodos}\\
 m = |E| = \text{ cantidad de aristas}
 $$
+
 **Nodos adyacentes o vecinos**
 Dados $v, w \in V$ , se denominan **adyacentes** cuando $e = (v, w) ∈ E$, y que **$e$ es incidente** a $v$ y $w$. 
 
