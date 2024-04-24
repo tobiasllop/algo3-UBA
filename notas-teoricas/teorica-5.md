@@ -10,6 +10,8 @@ En gral:
 
 $$
 n = |V| = \text{ cantidad de nodos}
+$$
+$$
 m = |E| = \text{ cantidad de aristas}
 $$
 
