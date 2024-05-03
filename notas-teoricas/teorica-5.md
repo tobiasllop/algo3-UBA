@@ -74,7 +74,13 @@ Si no existe recorrido entre $u$ y $v$ se define la distancia como infinito, $d(
 
 $$
 \blacktriangleright d(u, v) = 0 \iff u = v \\
+$$
+
+$$
 \blacktriangleright d(u, v) = d(v, u) \\
+$$
+
+$$
 \blacktriangleright d(u, w) ≤ d(u, v) + d(v, w) 
 $$
 
