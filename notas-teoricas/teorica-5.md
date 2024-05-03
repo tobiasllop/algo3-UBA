@@ -29,6 +29,7 @@ d_G(v) = |N_G(v)|
 $$
 
 **Teorema**: Dado un grafo de $G = (V, E)$, la suma de los grados de sus vertices es el doble de la cantidad de aristas. Es decir,
+
 $$
 \sum_{v \in V}{d(v)} = 2m
 $$
