@@ -20,10 +20,13 @@ $$
 Dados $v, w \in V$ , se denominan **adyacentes** cuando $e = (v, w) ∈ E$, y que **$e$ es incidente** a $v$ y $w$. 
 
 Similarmente, la vecindad de $v$, denotada por $N_G(v)$ es el conjunto de vertices adyacentes a $v$, es decir:
+
 $$
 N_G(v) = {w ∈ V | (v, w) ∈ E}
 $$
+
 Por otro lado, la cantidad de aristas incidentes a un vértice v se llama grado, definida como:
+
 $$
 d_G(v) = |N_G(v)|
 $$
