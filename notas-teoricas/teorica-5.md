@@ -71,6 +71,7 @@ Si no existe recorrido entre $u$ y $v$ se define la distancia como infinito, $d(
 **Teorema**: Si un recorrido $P$ entre $v$ y $w$ cumple $l(P) = d(v, w)$, entonces es un camino.
 
 **Teorema**: Para cualquier grafo $G = (V, E)$, la función de distancia $d : V × V \rightarrow \N $ es una métrica, es decir, cumple las siguientes propiedades para todo $u, v, w ∈ V$ :
+
 $$
 \blacktriangleright d(u, v) = 0 \iff u = v \\
 \blacktriangleright d(u, v) = d(v, u) \\
