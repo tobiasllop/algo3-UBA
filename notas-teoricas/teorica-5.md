@@ -143,5 +143,11 @@ arcos que tienen a v como cabeza.
 * El grado de salida **d<sub>out</sub>(v)** de un vertice v de un digrafo es la cantidad de arcos que salen de v. Es decir, la cantidad de arcos que tienen a v como cola.
 
 **Proposicion**:Si A es la matriz de adyacencia del digrafo G, entonces:
-        ▶ La suma de los elementos de la fila i de A es igual a d<sub>OUT</sub> (v<sub>i</sub>).
-        ▶ La suma de los elementos de la columna i de A es igual a d<sub>IN</sub>(v<sub>i</sub>)
+        
+  ▶ La suma de los elementos de la fila i de A es igual a d<sub>OUT</sub> (v<sub>i</sub>).
+        
+  ▶ La suma de los elementos de la columna i de A es igual a d<sub>IN</sub>(v<sub>i</sub>)
+
+* Un **recorrido/camino orientado** en un grafo dirigido es una sucesion de arcos e<sub>1</sub>e<sub>2</sub> . . . e<sub>k</sub> tal que el primer elemento del arco e<sub>i</sub> coincide con el segundo de e<sub>i−1</sub> y el segundo elemento de e<sub>i</sub> con el primero de e<sub>i+1</sub> i = 2, . . . , k − 1.
+* Un **circuito/ciclo orientado** en un grafo dirigido es un recorrido/camino orientado que comienza y termina en el mismo vertice.
+* Un digrafo se dice **fuertemente conexo** si para todo par de vertices u, v existen caminos orientados de u a v y de v a u.
