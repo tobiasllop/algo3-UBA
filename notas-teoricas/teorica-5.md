@@ -102,6 +102,19 @@ Un grafo se denomina **conexo** cuando existe un camino entre todo par de vérti
 
 Una **componente conexa** de un grafo es un subgrafo inducido conexo maximal (no se pueden agregar más vértices y mantenerlo conexo) de G.
 
+## Grafos Bipartitos
+
+Un grafo $G = (V, X)$ se dice bipartito si existen dos subconjuntos $V_1$, $V_2$ del conjunto de vertices $V$ tal que:
+
+$$
+V = V1 ∪ V2, V1 ∩ V2 = ∅
+$$
+
+y tal que todas las aristas de G tienen un extremo en $V_1$ y otro en $V_2$.
+
+* Un grafo bipartito con subconjuntos $V_1$, $V_2$, es bipartito completo si todo vértice en $V_1$ es adyacente a todo vértice en $V_2$.
+* Teorema: Un grafo G es bipartito $\iff$ no tiene ciclos de longitud impar.
+ 
 ## Representacion de Grafos
 Existen distintas alternativas para representar grafos en un algoritmo, que proveen ventajas y desventajas a la hora de realizar diversas operaciones.
 
