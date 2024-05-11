@@ -21,9 +21,11 @@ G − e es conexo $\iff$ e pertenece a un circuito simple de G.
 **Def**: una *Hoja* es un nodo de grado 1.
 
 **Lema 2**: Todo árbol no trivial tiene al menos dos hojas.
+
 **Lema 3**: Sea G = (V, X) árbol. Entonces m(cant aristas) = n − 1.
 
 **Corolario 1**: Sea G = (V, X) sin circuitos simples y c componentes conexas. Entonces m = n − c.
+
 **Corolario 2**: Sea G = (V, X) con c componentes conexas.
 Entonces m ≥ n − c.
 
