@@ -135,4 +135,13 @@ la complejidad espacial es también $O(|V|^2)$, lo cual es problemático para gu
 Esta estructura es una matriz $I ∈ {0, 1}^{nxn}$ donde las filas representan los vértices y las columnas las aristas. Una posición i, j tiene uno cuando la arista de la columna j es incidente al vértice de la fila i.
 
 
-Seguir escribiendo en clase practica.
+## Digrafos
+* Un digrafo $G = (V, X)$ es un par de conjuntos $V$ y $X$ donde $V$ es el conjunto de puntos, nodos o vertices y $X$ es un subconjunto del conjunto de los pares ordenados de elementos distintos de $V$. A los elementos de $X$ los llamaremos **arcos**.
+*  Dado un arco e = (u,w) llamaremos al primer elemento, u, cola de e y al segundo elemento, w, cabeza de e.
+*  El grado de entrada **d<sub>in</sub>(v)** de un vertice v de un digrafo es la cantidad de arcos que llegan a v. Es decir, la cantidad de
+arcos que tienen a v como cabeza.
+* El grado de salida **d<sub>out</sub>(v)** de un vertice v de un digrafo es la cantidad de arcos que salen de v. Es decir, la cantidad de arcos que tienen a v como cola.
+
+**Proposicion**:Si A es la matriz de adyacencia del digrafo G, entonces:
+        ▶ La suma de los elementos de la fila i de A es igual a d<sub>OUT</sub> (v<sub>i</sub>).
+        ▶ La suma de los elementos de la columna i de A es igual a d<sub>IN</sub>(v<sub>i</sub>)
