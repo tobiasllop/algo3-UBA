@@ -133,12 +133,15 @@ Se mantienen n listas, donde cada lista $L_i$ contiene todos los vertices de $N(
 
 **Matriz de adyacencia**
 En este caso, se tiene una matriz $M ∈ \{0, 1\}^{n×n}$, donde cada posición está determinada por:
-$$M_{ij} = 
+
+$$
+M_{ij} = 
 \begin{cases}
 1 & \text{ si } (i, j) \in E \\
 0 & \text{en caso contrario}  
 \end{cases}
 $$
+
 La matriz es simétrica para grafos, pero no necesariamente para digrafos.
 
 La estructura permite comprobar si dos vértices son adyacentes en tiempo constante. Sin embargo, construirla a partir de una lista de adyacencia es una operación de complejidad cuadrática, y la estructura es muy rígida (para agregar un vértice se debe armar una nueva matriz). Además,
