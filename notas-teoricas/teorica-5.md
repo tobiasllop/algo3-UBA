@@ -107,7 +107,8 @@ Una **componente conexa** de un grafo es un subgrafo inducido conexo maximal (no
 Un grafo $G = (V, X)$ se dice bipartito si existen dos subconjuntos $V_1$, $V_2$ del conjunto de vertices $V$ tal que:
 
 $$
-V = V1 ∪ V2, V1 ∩ V2 = ∅
+V = V1 ∪ V2, \\
+V1 ∩ V2 = ∅
 $$
 
 y tal que todas las aristas de G tienen un extremo en $V_1$ y otro en $V_2$.
