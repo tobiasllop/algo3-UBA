@@ -3,7 +3,7 @@
 * **Superposición de problemas**: Decimos que tenemos superposición de problemas si la cantidad de llamadas recursivas de la función sin memorizar es mucho mayor que la cantidad de estados posibles.
 
 $$
- \Omega(\text{#} llamadasrecursivas) \geq O(\text{#} estados)
+ \Omega(\textt{#} llamadasrecursivas) \geq O(\textt{#} estados)
 $$
 
 * Un algoritmo de programación dinámica evita estas repeticiones con alguno de estos dos esquemas:
