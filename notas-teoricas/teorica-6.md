@@ -3,7 +3,29 @@
 * Un **arbol** es un grafo conexo sin circuitos simples.
 * Una arista e de G es **puente**  $\iff$ G − e tiene mas componentes
 conexas que G.
+
+Ej:
+
+             a              b
+               \           / 
+                 u ----- v
+               /           \
+              c              d
+
+La arista $uv$ es **puente**
+   
+
 * Un vértice v de G es **punto de articulacion** $\iff$ G − v tiene más componentes conexas que G.
+
+Ej:
+
+              a              b
+               \           / 
+                 u _ P _ v
+               /           \
+              c              d
+              
+El vertice $P$ es punto de articulación
 
 **Teorema**: Dado un grafo G = (V, X) son equivalentes:
 
