@@ -110,3 +110,23 @@ se pueden clasificar sus arcos en 4 tipos:
 visitado que no es ni descendiente ni ancestro.
 
 **Para grafos, solamente existen aristas tree edges y back edges**
+
+
+## Algunas observaciones sobre tree edges y back edges en DFS
+**Def**: Decimos que una backward edge $b$ cubre a una tree edge $(u, v)$ de un árbol DFS $T$ con $u$ padre de $v$ si $b$ conecta un descendiente de $u$ con un ancestro de $v$ en $T$.
+
+Ej:
+
+        a #(ancestro de v)
+          \
+            u #(ancestro de v)
+              \
+                v #(descendiente de u)
+                  \
+                    b #(descendiente de u)
+
+Para el siguiente caso, las back edges ``(b --> a)`` y ``(v --> u)`` cubrirían al tree-edge ``(u --> v)``.
+
+                    
+* **Observación 1**: Una backward edge no puede ser un puente.
+*  
