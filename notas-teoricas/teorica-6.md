@@ -129,4 +129,8 @@ Para el siguiente caso, las back edges ``(b --> a)`` y ``(v --> u)`` cubrirían 
 
                     
 * **Observación 1**: Una backward edge no puede ser un puente.
-*  
+* **Observación 2**: Una tree edge de un árbol DFS $T$ de un grafo conexo $G$ es un **puente** $\iff$ no hay ninguna backward edge que la cubra.
+* **Observación 3**: Si una backward edge b cubre a una tree edge (u, v), entonces pasa una de dos
+cosas:
+   * O b cubre también a una arista que incide en un hijo de v
+   * b incide en v 
