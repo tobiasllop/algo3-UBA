@@ -47,9 +47,16 @@ El algoritmo es goloso porque en cada paso selecciona la moneda de mayor valor p
 Permite obtener una solución óptima al problema original a partir de soluciones óptimas de los subproblemas.
 
 
+En general hay dos formas de ver que un algoritmo goloso es optimo
+
+▶ Demostrar que nuestro algoritmo siempre se mantiene ”adelante” de cualquier otra solución óptima (Greedy stays ahead).
+
+▶ Mostrar que podemos agarrar una solución óptima y modificarla sin incrementar su costo y llevarla a la de nuestro algoritmo goloso (Exchange argument).
+
 ## Prueba de correctitud de un algoritmo greedy
 Para probar que un algoritmo goloso es correcto tenemos que ver que: 
 
 * La solución que obtuvimos es válida
 * (En general) es óptima.
+
 
