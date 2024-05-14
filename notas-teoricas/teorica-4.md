@@ -45,3 +45,11 @@ El algoritmo es goloso porque en cada paso selecciona la moneda de mayor valor p
 **Las partes de una solución óptima a un problema, deben ser soluciones óptimas de los correspondientes subproblemas.**
 
 Permite obtener una solución óptima al problema original a partir de soluciones óptimas de los subproblemas.
+
+
+## Prueba de correctitud de un algoritmo greedy
+Para probar que un algoritmo goloso es correcto tenemos que ver que: 
+
+* La solución que obtuvimos es válida
+* (En general) es óptima.
+
