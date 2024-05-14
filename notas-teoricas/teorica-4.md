@@ -40,3 +40,8 @@ Para encontrar soluciones (no necesariamente óptimas) de este problema, se pued
 Para ciertos conjuntos de denominaciones, como el tradicional ({1, 5, 10, 25, 50}), este algoritmo siempre devuelve soluciones óptimas, mientras que para otros no (en D = {1, 5, 10, 12}, m = 21, el algoritmo devuelve un conjunto de 6 monedas cuando la solución óptima tiene 3).
 
 El algoritmo es goloso porque en cada paso selecciona la moneda de mayor valor posible, sin preocuparse que esto puede llevar a una mala solución, y nunca modifica una decisión tomada
+
+## Principio de optimalidad
+**Las partes de una solución óptima a un problema, deben ser soluciones óptimas de los correspondientes subproblemas.**
+
+Permite obtener una solución óptima al problema original a partir de soluciones óptimas de los subproblemas.
