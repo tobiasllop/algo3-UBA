@@ -44,6 +44,8 @@ El algoritmo es goloso porque en cada paso selecciona la moneda de mayor valor p
 ## Principio de optimalidad
 **Las partes de una solución óptima a un problema, deben ser soluciones óptimas de los correspondientes subproblemas.**
 
+i.e $O_1 \npoints O_n$ es óptima $\iff O_1 \npoints O_j$ con $j < n$ también es óptima.
+
 Permite obtener una solución óptima al problema original a partir de soluciones óptimas de los subproblemas.
 
 
