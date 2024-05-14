@@ -113,7 +113,7 @@ visitado que no es ni descendiente ni ancestro.
 
 
 ## Algunas observaciones sobre tree edges y back edges en DFS
-**Def**: Decimos que una backward edge $b$ cubre a una tree edge $(u, v)$ de un árbol DFS $T$ con $u$ padre de $v$ si $b$ conecta un descendiente de $u$ con un ancestro de $v$ en $T$.
+**Def**: Decimos que una backward edge $b$ **cubre** a una tree edge $(u, v)$ de un árbol DFS $T$ con $u$ padre de $v$ si $b$ conecta un descendiente de $u$ con un ancestro de $v$ en $T$.
 
 Ej:
 
