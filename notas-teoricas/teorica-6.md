@@ -25,7 +25,7 @@ Ej:
                /           \
               c              d
               
-El vertice $P$ es punto de articulación
+El vertice $P$ es **punto de articulación**
 
 **Teorema**: Dado un grafo G = (V, X) son equivalentes:
 
