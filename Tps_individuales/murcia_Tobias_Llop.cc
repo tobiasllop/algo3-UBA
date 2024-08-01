@@ -3,25 +3,27 @@
 #include <algorithm>
 using namespace std;
 
-string solve(const vector<int>& h, const vector<int>& w) {
+string solve(const vector<int>& h, const vector<int>& w) { //Parametros altuas y anchos
     int n = h.size();
-    vector<int> max_inc(n, 0);
+    vector<int> max_inc(n, 0); // Utilizamos vectores como memoria para almacenar las llamadas recursivas
     vector<int> max_dec(n, 0);
 
     // Calculamos los máximos incrementos
     for (int i = 0; i < n; ++i) {
         max_inc[i] = w[i]; // Inicializamos con el ancho del edificio actual
-        for (int j = 0; j < i; ++j) {
+        for (int j = 0; j < i; ++j) { //iteramos de izquierda a derecha
             if (h[i] > h[j]) {
                 max_inc[i] = max(max_inc[i], max_inc[j] + w[i]); // Actualizamos si encontramos un incremento mayor
             }
         }
     }
+    // max_inc[i] siempre contiene la longitud máxima de la subsecuencia creciente que termina en el edificio i.
+
 
     // Calculamos los máximos decrementos
     for (int i = n - 1; i >= 0; --i) {
         max_dec[i] = w[i]; // Inicializamos con el ancho del edificio actual
-        for (int j = n - 1; j > i; --j) {
+        for (int j = n - 1; j > i; --j) { //iteramos de derecha a izquierda
             if (h[i] > h[j]) {
                 max_dec[i] = max(max_dec[i], max_dec[j] + w[i]); // Actualizamos si encontramos un decremento mayor
             }

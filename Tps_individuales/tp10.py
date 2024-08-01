@@ -69,7 +69,7 @@ def main():
 
             objetivo = None
             min_distance = float('infinity')
-            for i in range(n):
+            for i in range(n): # Este for chequea cual es la distancia minima hasta el ascensor k utilizando cada ascensor.
                 vertex = 100 * i + k
                 if vertex in distances and distances[vertex] < min_distance:
                     objetivo = vertex
